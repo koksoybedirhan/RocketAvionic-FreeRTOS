@@ -1,0 +1,37 @@
+2023-11-20 00:06:35,485 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 203296720 Bytes (584056832)
+2023-11-20 00:06:36,542 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 216967288 Bytes (584056832)
+2023-11-20 00:06:37,942 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 254716024 Bytes (584056832)
+2023-11-20 00:06:38,445 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-11-20 00:06:38,445 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SPI
+2023-11-20 00:06:38,445 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-11-20 00:06:38,445 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-11-20 00:06:38,445 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-11-20 00:06:38,445 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-11-20 00:06:38,445 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-11-20 00:06:38,445 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-11-20 00:06:38,445 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2023-11-20 00:06:38,445 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2023-11-20 00:06:38,445 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.2.202309101412\\db\
+2023-11-20 00:06:38,650 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\MainAvionic\MXTmpFiles\license.tmp_save
+2023-11-20 00:06:39,099 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\MainAvionic\MXTmpFiles\license.tmp
+2023-11-20 00:06:39,248 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\MainAvionic\MXTmpFiles\gpio.tmp_save
+2023-11-20 00:06:39,372 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\MainAvionic\MXTmpFiles\gpio.tmp
+2023-11-20 00:06:40,092 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\MainAvionic\Core\Src\stm32f0xx_it.c_save
+2023-11-20 00:06:40,263 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\MainAvionic\Core\Src\stm32f0xx_it.c
+2023-11-20 00:06:40,282 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\MainAvionic\Core\Inc\stm32f0xx_it.h_save
+2023-11-20 00:06:40,364 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\MainAvionic\Core\Inc\stm32f0xx_it.h
+2023-11-20 00:06:40,396 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\MainAvionic\Core\Src\stm32f0xx_hal_msp.c_save
+2023-11-20 00:06:40,549 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\MainAvionic\Core\Src\stm32f0xx_hal_msp.c
+2023-11-20 00:06:40,564 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\MainAvionic\MXTmpFiles\system.tmp_save
+2023-11-20 00:06:40,624 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\MainAvionic\MXTmpFiles\system.tmp
+2023-11-20 00:06:40,644 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\MainAvionic\Core\Inc\stm32f0xx_hal_conf.h_save
+2023-11-20 00:06:40,725 [INFO] CodeEngine:335 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\MainAvionic\Core\Inc\stm32f0xx_hal_conf.h
+2023-11-20 00:06:40,777 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\MainAvionic\Core\Inc\main.h_save
+2023-11-20 00:06:40,879 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\MainAvionic\Core\Inc\main.h
+2023-11-20 00:06:40,898 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\MainAvionic\Core\Src\main.c_save
+2023-11-20 00:06:41,063 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\MainAvionic\Core\Src\main.c
+2023-11-20 00:06:41,573 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 150mS.
+2023-11-20 00:06:41,579 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-11-20 00:06:41,815 [INFO] ConfigFileManager:1457 - The Die is : DIE440
+2023-11-20 00:06:41,829 [INFO] ApiDbMcu:507 - Load IP Config File for FATFS
+2023-11-20 00:06:41,839 [INFO] ApiDbMcu:507 - Load IP Config File for FREERTOS
