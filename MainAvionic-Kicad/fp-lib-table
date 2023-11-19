@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "STM32G030")(type "KiCad")(uri "${KIPRJMOD}/STM32G030.pretty")(options "")(descr ""))
+  (lib (name "F030C8T6")(type "KiCad")(uri "${KIPRJMOD}/F030C8T6.pretty")(options "")(descr ""))
+)
