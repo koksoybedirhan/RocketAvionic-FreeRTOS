@@ -558,18 +558,18 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(Lora_NSS_GPIO_Port, Lora_NSS_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOA, Lora_NSS_Pin|BUZZER_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOB, Lora_RESET_Pin|First_Seperation_Pin|Second_Seperation_Pin|Optional_LED_Pin
                           |Optional_OUT2_Pin|SECSEP_LED_Pin|FIRSTSEP_LED_Pin|Optional_OUT_Pin, GPIO_PIN_RESET);
 
-  /*Configure GPIO pin : Lora_NSS_Pin */
-  GPIO_InitStruct.Pin = Lora_NSS_Pin;
+  /*Configure GPIO pins : Lora_NSS_Pin BUZZER_Pin */
+  GPIO_InitStruct.Pin = Lora_NSS_Pin|BUZZER_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(Lora_NSS_GPIO_Port, &GPIO_InitStruct);
+  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
   /*Configure GPIO pins : Lora_DIO0_Pin Optional_IN_Pin */
   GPIO_InitStruct.Pin = Lora_DIO0_Pin|Optional_IN_Pin;

@@ -77,6 +77,8 @@ void Error_Handler(void);
 #define Optional_OUT2_GPIO_Port GPIOB
 #define Optional_PWM_Pin GPIO_PIN_8
 #define Optional_PWM_GPIO_Port GPIOA
+#define BUZZER_Pin GPIO_PIN_11
+#define BUZZER_GPIO_Port GPIOA
 #define Optional_EXTI_Pin GPIO_PIN_12
 #define Optional_EXTI_GPIO_Port GPIOA
 #define SECSEP_LED_Pin GPIO_PIN_4
