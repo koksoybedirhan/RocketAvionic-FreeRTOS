@@ -1,0 +1,1 @@
+This repository contains the hardware and software of the project named "Orta İrtifa Roketler İçin FreeRTOS Tabanlı STM32 İşlemcili Aviyonik Kart Yazılım Tasarımı", which is entitled to be supported by TÜBİTAK 2209-A.
