@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -108,7 +108,7 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.19999999999999998,
         "min_copper_edge_clearance": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.254,
@@ -357,7 +357,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "GroundStation-Kicad.kicad_pro",
+    "filename": "GrandStationKicad.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -436,7 +436,7 @@
   },
   "sheets": [
     [
-      "04adbcb7-a4ae-4352-902c-4632e20f8b0e",
+      "fc122165-a3ae-44f3-98c4-2a17aac5dd4c",
       ""
     ]
   ],
