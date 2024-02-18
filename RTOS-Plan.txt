@@ -1,0 +1,9 @@
+- Toplam dört işlem olacak, önem sıralarına göre; ayrılma, ayrılma sensör ölçümleri, gps ölçümleri, yere veri gönderme
+- İlk olarak sensörlerin init işlemi gerçekleşecek, init sırasında her bir fonksiyon için even flags kullanılacak. Ayrılma sensörlerinin init'i için bir event flags, gps için farklı bir event flags olacak.
+Eğer initler edilmezse ayrılma sensör görevi ve gps görevleri çalışmayacak.
+- Ayrılma ve ayrılma sensör ölçümleri için binary semafor kullanılacak.
+- Ayrılma sensör ölçümleri, gps ölçümü, haberleşme için mutex kullanılacak.
+- Ayrılma sensöründe binary semafor sadece sensör bilgileri belirli bir kısma gelince çalışacak, onun dışında asla binary semafor anahtarını ayrılma görevine vermeyecek. Ayrılma görevi de ayrıldıktan sonra anahtarı direkt ayrılma sensörleri görevine verecek.
+- Ayrılma sensörleri görevi mutexte en öncelikli, gps ikinci, haberleşme üçüncü olacak.
+- Ayrılma sensörleri ve gps görevleri ölçüm yaptıkları verileri queue'nin içine atarak dolduracak.
+- Haberleşme görevi queue'nin içindekileri yer istasyonuna gönderecek ve queue'yi boşaltarak tekrar ayrılma görevi ve gps görevine iletecek ve o görevler tekrar dolduracak. Böylece döngü olacak.
