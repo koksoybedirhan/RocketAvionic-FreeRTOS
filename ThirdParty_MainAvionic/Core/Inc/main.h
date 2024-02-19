@@ -57,6 +57,10 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define SECOND_SEPERATION_Pin GPIO_PIN_9
+#define SECOND_SEPERATION_GPIO_Port GPIOA
+#define FIRST_SEPERATION_Pin GPIO_PIN_10
+#define FIRST_SEPERATION_GPIO_Port GPIOA
 
 /* USER CODE BEGIN Private defines */
 
