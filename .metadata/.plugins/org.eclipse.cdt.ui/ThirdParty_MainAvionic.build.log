@@ -1,0 +1,10 @@
+23:39:14 **** Incremental Build of configuration Debug for project ThirdParty_MainAvionic ****
+make -j8 all 
+arm-none-eabi-size   ThirdParty_MainAvionic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25924	    224	   2352	  28500	   6f54	ThirdParty_MainAvionic.elf
+Finished building: default.size.stdout
+ 
+
+23:39:14 Build Finished. 0 errors, 0 warnings. (took 196ms)
+
