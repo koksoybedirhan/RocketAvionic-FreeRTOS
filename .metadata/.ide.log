@@ -3561,3 +3561,504 @@
 2024-02-20 12:43:21,970 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 4157mS.
 2024-02-20 12:43:21,971 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 1mS.
 2024-02-20 12:43:21,974 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 1mS.
+2024-02-20 14:06:44,582 [INFO] MainUpdater:2868 - connection check result : 10
+2024-02-20 14:06:44,582 [INFO] MainUpdater:2868 - connection check result : 10
+2024-02-20 14:06:44,637 [INFO] MicroXplorer:468 - Change Database Path : 
+2024-02-20 14:06:44,637 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.92
+2024-02-20 14:06:44,726 [WARN] ThirdParty:871 - waiting for thirdparty lock release [close project]
+2024-02-20 14:06:44,727 [INFO] ThirdParty:873 - entering critical section [close project]
+2024-02-20 14:06:44,727 [INFO] ThirdParty:883 - exiting critical section [close project]
+2024-02-20 14:06:44,729 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2024-02-20 14:06:44,740 [WARN] IpParametersView:151 - Warning: This peripheral hasn't parameters
+2024-02-20 14:06:44,747 [WARN] MainPanel:272 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2024-02-20 14:06:44,758 [INFO] UtilMem:75 - Begin LoadConfig() Used Memory: 915934320 Bytes (1073741824)
+2024-02-20 14:06:44,759 [INFO] MicroXplorer:468 - Change Database Path : 
+2024-02-20 14:06:44,760 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.92
+2024-02-20 14:06:44,760 [INFO] OpenFileManager:308 - Change cursor
+2024-02-20 14:06:44,788 [INFO] RulesReader:64 - Compatibility file has been processed (293 Rules)
+2024-02-20 14:06:44,792 [INFO] Mcu:1946 - Initializing MCU STM32F446R(C-E)Tx STM32F446RETx STM32F446RET6
+2024-02-20 14:06:45,715 [INFO] Context:659 - Trying to add GPIOservice into a context  which must be forbidden
+2024-02-20 14:06:46,262 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2024-02-20 14:06:46,262 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2024-02-20 14:06:46,262 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2024-02-20 14:06:46,262 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2024-02-20 14:06:46,262 [WARN] ModelIntegratedComponent:184 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2024-02-20 14:06:46,266 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-02-20 14:06:46,267 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-02-20 14:06:46,267 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-02-20 14:06:46,267 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-02-20 14:06:46,267 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-02-20 14:06:46,267 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-02-20 14:06:46,267 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-02-20 14:06:46,267 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-02-20 14:06:46,267 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-02-20 14:06:46,267 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-02-20 14:06:46,267 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-02-20 14:06:46,267 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-02-20 14:06:46,267 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-02-20 14:06:46,267 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-02-20 14:06:46,267 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-02-20 14:06:46,267 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-02-20 14:06:46,267 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-02-20 14:06:46,267 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-02-20 14:06:46,267 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-02-20 14:06:46,267 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-02-20 14:06:46,267 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-02-20 14:06:46,267 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-02-20 14:06:46,267 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-02-20 14:06:46,267 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-02-20 14:06:46,267 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-02-20 14:06:46,267 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-02-20 14:06:46,267 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-02-20 14:06:46,267 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-02-20 14:06:46,267 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-02-20 14:06:46,267 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-02-20 14:06:46,267 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-02-20 14:06:46,267 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-02-20 14:06:46,267 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-02-20 14:06:46,523 [INFO] ThirdPartyModel:298 - Start build external matchings
+2024-02-20 14:06:48,781 [INFO] ThirdPartyModel:316 - End build external matchings
+2024-02-20 14:06:49,011 [INFO] UtilMem:75 - End LoadConfig() Used Memory: 904226912 Bytes (1073741824)
+2024-02-20 14:06:49,041 [WARN] ThirdParty:833 - waiting for thirdparty lock release [change project]
+2024-02-20 14:06:49,041 [INFO] ThirdParty:835 - entering critical section [change project]
+2024-02-20 14:06:49,041 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USBPD 4.1
+2024-02-20 14:06:49,041 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2024-02-20 14:06:49,041 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2024-02-20 14:06:49,041 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2024-02-20 14:06:49,041 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2024-02-20 14:06:49,041 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2024-02-20 14:06:49,041 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.23.0
+2024-02-20 14:06:49,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.2.0
+2024-02-20 14:06:49,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 1.2.0
+2024-02-20 14:06:49,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2024-02-20 14:06:49,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 2.0.0
+2024-02-20 14:06:49,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2024-02-20 14:06:49,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.6.0
+2024-02-20 14:06:49,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 4.2.0
+2024-02-20 14:06:49,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :ITTIA_DB I-CUBE-ITTIADB 8.8.0
+2024-02-20 14:06:49,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 4.3.2
+2024-02-20 14:06:49,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.1
+2024-02-20 14:06:49,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.3
+2024-02-20 14:06:49,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.4
+2024-02-20 14:06:49,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2024-02-20 14:06:49,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 2.0.0
+2024-02-20 14:06:49,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.2
+2024-02-20 14:06:49,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.5
+2024-02-20 14:06:49,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.4
+2024-02-20 14:06:49,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.1.0
+2024-02-20 14:06:49,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2024-02-20 14:06:49,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.1.0
+2024-02-20 14:06:49,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2024-02-20 14:06:49,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.0.0
+2024-02-20 14:06:49,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 7.0.0
+2024-02-20 14:06:49,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2024-02-20 14:06:49,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.22.0
+2024-02-20 14:06:49,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.1
+2024-02-20 14:06:49,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2024-02-20 14:06:49,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2024-02-20 14:06:49,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.22.1
+2024-02-20 14:06:49,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC6 3.0.0
+2024-02-20 14:06:49,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.3.0
+2024-02-20 14:06:49,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 4.1.0
+2024-02-20 14:06:49,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.2.0
+2024-02-20 14:06:49,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-SMARTAG2 1.2.0
+2024-02-20 14:06:49,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 2.0.0
+2024-02-20 14:06:49,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2024-02-20 14:06:49,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.1.0
+2024-02-20 14:06:49,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 2.0.0
+2024-02-20 14:06:49,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2024-02-20 14:06:49,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2024-02-20 14:06:49,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2024-02-20 14:06:49,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2024-02-20 14:06:49,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2024-02-20 14:06:49,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 2.2.0
+2024-02-20 14:06:49,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.2.0
+2024-02-20 14:06:49,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2024-02-20 14:06:49,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.0.0
+2024-02-20 14:06:49,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.0.0
+2024-02-20 14:06:49,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.1.0
+2024-02-20 14:06:49,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2024-02-20 14:06:49,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 2.1.0
+2024-02-20 14:06:49,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.0.0
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 2.0.0
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.0.1
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.1
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.0
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 1.0.0
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.4.0
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.3.0
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.1.0
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.0.1
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.2.0
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.3.1
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 2.0.0
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.3.0
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 1.1.1
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Infineon AIROC-Wi-Fi-Bluetooth-STM32 1.5.1
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 3.0.0
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 1.1.0
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 1.3.0
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENVWB1 1.3.0
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENVWB1 1.3.1
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.3.0
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 2.0.0
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 5.1.0
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.1.2
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.20.0
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 10.0.0
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.1.0
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.0.0
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 1.0.0
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2024-02-20 14:06:49,044 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2024-02-20 14:06:49,045 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.5.0
+2024-02-20 14:06:49,045 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2024-02-20 14:06:49,045 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 1.1.0
+2024-02-20 14:06:49,045 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2024-02-20 14:06:49,045 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.0.0
+2024-02-20 14:06:49,045 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.1.1
+2024-02-20 14:06:49,045 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.0
+2024-02-20 14:06:49,045 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.4.0
+2024-02-20 14:06:49,045 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.2.0
+2024-02-20 14:06:49,045 [INFO] ThirdParty:841 - exiting critical section [change project]
+2024-02-20 14:06:49,225 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2024-02-20 14:06:49,227 [INFO] PinOutPanel:1499 - setPackage(STM32F446RETx,LQFP64)
+2024-02-20 14:06:49,541 [INFO] UtilMem:75 - Before build in PCC Used Memory: 686673232 Bytes (1073741824)
+2024-02-20 14:06:49,826 [INFO] UtilMem:75 - After build in PCC Used Memory: 736478544 Bytes (1073741824)
+2024-02-20 14:06:49,849 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,849 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,849 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,849 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,849 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,850 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,850 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,850 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,850 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,850 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,850 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,850 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,850 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,850 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,851 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,851 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,851 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,851 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,851 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,852 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,852 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,852 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,852 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,852 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,853 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,853 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,854 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,854 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,854 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,854 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,854 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,855 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,855 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,855 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,855 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,856 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,856 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,856 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,857 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,857 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,857 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,857 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,858 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,858 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,858 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,858 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,859 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,859 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,860 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,860 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,861 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,862 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,862 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,862 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,862 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,863 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,863 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,864 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,865 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,865 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-20 14:06:49,869 [INFO] ApiDbMcu:507 - Load IP Config File for PDM2PCM
+2024-02-20 14:06:49,870 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-02-20 14:06:49,870 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-02-20 14:06:49,938 [INFO] CADModel:165 - CPN selected for project levelSTM32F446RET6
+2024-02-20 14:06:49,938 [INFO] CADModel:114 - Register for checkConnection events
+2024-02-20 14:06:49,990 [INFO] OpenFileManager:328 - Restore cursor
+2024-02-20 14:06:50,122 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-02-20 14:06:50,122 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-02-20 14:06:50,124 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-02-20 14:06:50,124 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-02-20 14:07:15,113 [INFO] RtosManager:919 - Current active RTOS is FREERTOS [Cortex-M4NS]
+2024-02-20 14:07:15,225 [INFO] ApiDbMcu:507 - Load IP Config File for FREERTOS
+2024-02-20 14:07:15,433 [ERROR] RtosPanel:558 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2024-02-20 14:07:15,490 [ERROR] RtosPanel:558 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2024-02-20 14:08:19,766 [INFO] TasksAndQueuesTab:757 - Dynamic
+2024-02-20 14:08:19,767 [WARN] TasksAndQueuesTab:763 - 128 128
+2024-02-20 14:08:19,767 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2024-02-20 14:08:21,216 [INFO] EditThreadDialog:704 - RAM SIZE (in KB): 128
+2024-02-20 14:08:21,216 [INFO] EditThreadDialog:706 - RAM SIZE (in words): 32768
+2024-02-20 14:08:30,627 [INFO] EditThreadDialog:704 - RAM SIZE (in KB): 128
+2024-02-20 14:08:30,627 [INFO] EditThreadDialog:706 - RAM SIZE (in words): 32768
+2024-02-20 14:09:15,625 [INFO] TasksAndQueuesTab:757 - Dynamic
+2024-02-20 14:09:15,625 [WARN] TasksAndQueuesTab:763 - 128 128
+2024-02-20 14:09:15,625 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2024-02-20 14:09:15,625 [INFO] TasksAndQueuesTab:757 - Dynamic
+2024-02-20 14:09:15,625 [WARN] TasksAndQueuesTab:763 - 128 128
+2024-02-20 14:09:15,625 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2024-02-20 14:09:15,716 [ERROR] RtosPanel:558 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2024-02-20 14:09:19,252 [INFO] TasksAndQueuesTab:757 - Dynamic
+2024-02-20 14:09:19,252 [WARN] TasksAndQueuesTab:763 - 128 128
+2024-02-20 14:09:19,252 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2024-02-20 14:09:19,252 [INFO] TasksAndQueuesTab:757 - Dynamic
+2024-02-20 14:09:19,252 [WARN] TasksAndQueuesTab:763 - 128 128
+2024-02-20 14:09:19,252 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2024-02-20 14:09:23,784 [INFO] EditThreadDialog:704 - RAM SIZE (in KB): 128
+2024-02-20 14:09:23,784 [INFO] EditThreadDialog:706 - RAM SIZE (in words): 32768
+2024-02-20 14:09:27,929 [INFO] TasksAndQueuesTab:757 - Dynamic
+2024-02-20 14:09:27,929 [WARN] TasksAndQueuesTab:763 - 128 128
+2024-02-20 14:09:27,929 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2024-02-20 14:09:27,929 [INFO] TasksAndQueuesTab:757 - Dynamic
+2024-02-20 14:09:27,930 [WARN] TasksAndQueuesTab:763 - 128 128
+2024-02-20 14:09:27,930 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2024-02-20 14:09:29,216 [INFO] EditThreadDialog:704 - RAM SIZE (in KB): 128
+2024-02-20 14:09:29,216 [INFO] EditThreadDialog:706 - RAM SIZE (in words): 32768
+2024-02-20 14:09:32,097 [INFO] TasksAndQueuesTab:757 - Dynamic
+2024-02-20 14:09:32,097 [WARN] TasksAndQueuesTab:763 - 128 128
+2024-02-20 14:09:32,097 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2024-02-20 14:09:32,097 [INFO] TasksAndQueuesTab:757 - Dynamic
+2024-02-20 14:09:32,098 [WARN] TasksAndQueuesTab:763 - 128 128
+2024-02-20 14:09:32,098 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2024-02-20 14:09:33,991 [INFO] EditThreadDialog:704 - RAM SIZE (in KB): 128
+2024-02-20 14:09:33,992 [INFO] EditThreadDialog:706 - RAM SIZE (in words): 32768
+2024-02-20 14:09:56,199 [INFO] TasksAndQueuesTab:757 - Dynamic
+2024-02-20 14:09:56,199 [WARN] TasksAndQueuesTab:763 - 128 128
+2024-02-20 14:09:56,199 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2024-02-20 14:09:56,199 [INFO] TasksAndQueuesTab:757 - Dynamic
+2024-02-20 14:09:56,199 [WARN] TasksAndQueuesTab:763 - 128 128
+2024-02-20 14:09:56,199 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2024-02-20 14:09:56,199 [INFO] TasksAndQueuesTab:757 - Dynamic
+2024-02-20 14:09:56,199 [WARN] TasksAndQueuesTab:763 - 128 128
+2024-02-20 14:09:56,199 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2024-02-20 14:09:57,361 [INFO] EditThreadDialog:704 - RAM SIZE (in KB): 128
+2024-02-20 14:09:57,361 [INFO] EditThreadDialog:706 - RAM SIZE (in words): 32768
+2024-02-20 14:10:01,767 [INFO] EditThreadDialog:704 - RAM SIZE (in KB): 128
+2024-02-20 14:10:01,767 [INFO] EditThreadDialog:706 - RAM SIZE (in words): 32768
+2024-02-20 14:10:04,889 [INFO] EditThreadDialog:704 - RAM SIZE (in KB): 128
+2024-02-20 14:10:04,889 [INFO] EditThreadDialog:706 - RAM SIZE (in words): 32768
+2024-02-20 14:10:07,917 [INFO] EditThreadDialog:704 - RAM SIZE (in KB): 128
+2024-02-20 14:10:07,917 [INFO] EditThreadDialog:706 - RAM SIZE (in words): 32768
+2024-02-20 14:10:10,208 [INFO] EditThreadDialog:704 - RAM SIZE (in KB): 128
+2024-02-20 14:10:10,208 [INFO] EditThreadDialog:706 - RAM SIZE (in words): 32768
+2024-02-20 14:10:23,265 [INFO] TasksAndQueuesTab:757 - Dynamic
+2024-02-20 14:10:23,265 [WARN] TasksAndQueuesTab:763 - 128 128
+2024-02-20 14:10:23,265 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2024-02-20 14:10:23,265 [INFO] TasksAndQueuesTab:757 - Dynamic
+2024-02-20 14:10:23,265 [WARN] TasksAndQueuesTab:763 - 128 128
+2024-02-20 14:10:23,265 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2024-02-20 14:10:23,265 [INFO] TasksAndQueuesTab:757 - Dynamic
+2024-02-20 14:10:23,265 [WARN] TasksAndQueuesTab:763 - 128 128
+2024-02-20 14:10:23,265 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2024-02-20 14:10:23,265 [INFO] TasksAndQueuesTab:757 - Dynamic
+2024-02-20 14:10:23,265 [WARN] TasksAndQueuesTab:763 - 128 128
+2024-02-20 14:10:23,265 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2024-02-20 14:10:24,175 [INFO] EditThreadDialog:704 - RAM SIZE (in KB): 128
+2024-02-20 14:10:24,176 [INFO] EditThreadDialog:706 - RAM SIZE (in words): 32768
+2024-02-20 14:10:44,911 [INFO] TasksAndQueuesTab:757 - Dynamic
+2024-02-20 14:10:44,911 [WARN] TasksAndQueuesTab:763 - 128 128
+2024-02-20 14:10:44,911 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2024-02-20 14:10:44,911 [INFO] TasksAndQueuesTab:757 - Dynamic
+2024-02-20 14:10:44,911 [WARN] TasksAndQueuesTab:763 - 128 128
+2024-02-20 14:10:44,912 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2024-02-20 14:10:44,912 [INFO] TasksAndQueuesTab:757 - Dynamic
+2024-02-20 14:10:44,912 [WARN] TasksAndQueuesTab:763 - 128 128
+2024-02-20 14:10:44,912 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2024-02-20 14:10:44,912 [INFO] TasksAndQueuesTab:757 - Dynamic
+2024-02-20 14:10:44,912 [WARN] TasksAndQueuesTab:763 - 128 128
+2024-02-20 14:10:44,912 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2024-02-20 14:10:44,912 [INFO] TasksAndQueuesTab:757 - Dynamic
+2024-02-20 14:10:44,912 [WARN] TasksAndQueuesTab:763 - 128 128
+2024-02-20 14:10:44,912 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2024-02-20 14:10:49,619 [INFO] EditThreadDialog:704 - RAM SIZE (in KB): 128
+2024-02-20 14:10:49,620 [INFO] EditThreadDialog:706 - RAM SIZE (in words): 32768
+2024-02-20 14:15:02,171 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 683994200 Bytes (1073741824)
+2024-02-20 14:15:02,889 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 709043752 Bytes (1073741824)
+2024-02-20 14:15:04,093 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 689489072 Bytes (1073741824)
+2024-02-20 14:15:14,858 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: FREERTOS
+2024-02-20 14:15:14,858 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2024-02-20 14:15:14,858 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-02-20 14:15:14,858 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-02-20 14:15:14,858 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2024-02-20 14:15:14,858 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-02-20 14:15:14,858 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-02-20 14:15:14,858 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-02-20 14:15:14,859 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-02-20 14:15:14,859 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.2.202309101412\\db\
+2024-02-20 14:15:14,862 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-02-20 14:15:14,862 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-02-20 14:15:14,987 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\license.tmp_save
+2024-02-20 14:15:15,096 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\license.tmp
+2024-02-20 14:15:15,120 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\gpio.tmp_save
+2024-02-20 14:15:15,221 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\gpio.tmp
+2024-02-20 14:15:15,426 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2024-02-20 14:15:15,443 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_inc.tmp_save
+2024-02-20 14:15:15,518 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_inc.tmp
+2024-02-20 14:15:15,526 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_vars.tmp_save
+2024-02-20 14:15:15,588 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_vars.tmp
+2024-02-20 14:15:15,597 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_pfp.tmp_save
+2024-02-20 14:15:15,651 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_pfp.tmp
+2024-02-20 14:15:15,660 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_obj_creat.tmp_save
+2024-02-20 14:15:15,738 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_obj_creat.tmp
+2024-02-20 14:15:15,748 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_kernelStart.tmp_save
+2024-02-20 14:15:15,796 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_kernelStart.tmp
+2024-02-20 14:15:15,805 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_default_thread.tmp_save
+2024-02-20 14:15:15,863 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_default_thread.tmp
+2024-02-20 14:15:15,873 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_threads.tmp_save
+2024-02-20 14:15:15,933 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_threads.tmp
+2024-02-20 14:15:15,944 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2024-02-20 14:15:15,951 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_inc.tmp_save
+2024-02-20 14:15:16,009 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_inc.tmp
+2024-02-20 14:15:16,012 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_vars.tmp_save
+2024-02-20 14:15:16,054 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_vars.tmp
+2024-02-20 14:15:16,057 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_pfp.tmp_save
+2024-02-20 14:15:16,098 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_pfp.tmp
+2024-02-20 14:15:16,107 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_obj_creat.tmp_save
+2024-02-20 14:15:16,150 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_obj_creat.tmp
+2024-02-20 14:15:16,153 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_kernelStart.tmp_save
+2024-02-20 14:15:16,192 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_kernelStart.tmp
+2024-02-20 14:15:16,196 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_default_thread.tmp_save
+2024-02-20 14:15:16,245 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_default_thread.tmp
+2024-02-20 14:15:16,250 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_threads.tmp_save
+2024-02-20 14:15:16,298 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_threads.tmp
+2024-02-20 14:15:16,310 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\Core\Inc\FreeRTOSConfig.h_save
+2024-02-20 14:15:16,388 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\Core\Inc\FreeRTOSConfig.h
+2024-02-20 14:15:16,399 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\Core\Src\freertos.c_save
+2024-02-20 14:15:16,466 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\Core\Src\freertos.c
+2024-02-20 14:15:16,485 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\Core\Src\stm32f4xx_it.c_save
+2024-02-20 14:15:16,674 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\Core\Src\stm32f4xx_it.c
+2024-02-20 14:15:16,690 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\Core\Inc\stm32f4xx_it.h_save
+2024-02-20 14:15:16,769 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\Core\Inc\stm32f4xx_it.h
+2024-02-20 14:15:16,787 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\Core\Src\stm32f4xx_hal_msp.c_save
+2024-02-20 14:15:16,897 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\Core\Src\stm32f4xx_hal_msp.c
+2024-02-20 14:15:16,905 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\system.tmp_save
+2024-02-20 14:15:16,956 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\system.tmp
+2024-02-20 14:15:16,988 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2024-02-20 14:15:17,070 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\Core\Src\stm32f4xx_hal_timebase_tim.c
+2024-02-20 14:15:17,086 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-02-20 14:15:17,196 [INFO] CodeEngine:335 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\Core\Inc\stm32f4xx_hal_conf.h
+2024-02-20 14:15:17,216 [WARN] IPConfigManager:2937 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2024-02-20 14:15:17,220 [WARN] IPConfigManager:3431 - IP not found : TIM
+2024-02-20 14:15:17,221 [WARN] CodeGenerator:3764 - IP not found : null
+2024-02-20 14:15:17,234 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\Core\Inc\main.h_save
+2024-02-20 14:15:17,316 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\Core\Inc\main.h
+2024-02-20 14:15:17,328 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\Core\Src\main.c_save
+2024-02-20 14:15:17,446 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\Core\Src\main.c
+2024-02-20 14:15:17,904 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 172mS.
+2024-02-20 14:15:17,910 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2024-02-20 14:15:18,121 [INFO] ConfigFileManager:1457 - The Die is : DIE421
+2024-02-20 14:15:18,123 [INFO] ApiDbMcu:507 - Load IP Config File for FATFS
+2024-02-20 14:15:18,125 [INFO] ApiDbMcu:507 - Load IP Config File for LIBJPEG
+2024-02-20 14:15:18,129 [INFO] ApiDbMcu:507 - Load IP Config File for MBEDTLS
+2024-02-20 14:15:18,134 [INFO] ApiDbMcu:507 - Load IP Config File for USB_DEVICE
+2024-02-20 14:15:18,136 [INFO] ApiDbMcu:507 - Load IP Config File for USB_HOST
+2024-02-20 14:15:19,907 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 1997mS.
+2024-02-20 14:15:19,908 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 1mS.
+2024-02-20 14:15:19,913 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2024-02-20 14:15:27,083 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 772658168 Bytes (1073741824)
+2024-02-20 14:15:38,595 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 838293920 Bytes (1073741824)
+2024-02-20 14:15:40,761 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 866834952 Bytes (1073741824)
+2024-02-20 14:15:41,583 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 732938496 Bytes (1073741824)
+2024-02-20 14:15:41,770 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: FREERTOS
+2024-02-20 14:15:41,771 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2024-02-20 14:15:41,771 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-02-20 14:15:41,771 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-02-20 14:15:41,771 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2024-02-20 14:15:41,771 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-02-20 14:15:41,771 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-02-20 14:15:41,771 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-02-20 14:15:41,771 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-02-20 14:15:41,772 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.2.202309101412\\db\
+2024-02-20 14:15:41,777 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-02-20 14:15:41,777 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-02-20 14:15:41,918 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\license.tmp_save
+2024-02-20 14:15:41,991 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\license.tmp
+2024-02-20 14:15:42,052 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\gpio.tmp_save
+2024-02-20 14:15:42,135 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\gpio.tmp
+2024-02-20 14:15:42,250 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2024-02-20 14:15:42,270 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_inc.tmp_save
+2024-02-20 14:15:42,356 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_inc.tmp
+2024-02-20 14:15:42,359 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_vars.tmp_save
+2024-02-20 14:15:42,417 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_vars.tmp
+2024-02-20 14:15:42,420 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_pfp.tmp_save
+2024-02-20 14:15:42,470 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_pfp.tmp
+2024-02-20 14:15:42,474 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_obj_creat.tmp_save
+2024-02-20 14:15:42,546 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_obj_creat.tmp
+2024-02-20 14:15:42,549 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_kernelStart.tmp_save
+2024-02-20 14:15:42,613 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_kernelStart.tmp
+2024-02-20 14:15:42,616 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_default_thread.tmp_save
+2024-02-20 14:15:42,661 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_default_thread.tmp
+2024-02-20 14:15:42,664 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_threads.tmp_save
+2024-02-20 14:15:42,713 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_threads.tmp
+2024-02-20 14:15:42,723 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2024-02-20 14:15:42,730 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_inc.tmp_save
+2024-02-20 14:15:42,785 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_inc.tmp
+2024-02-20 14:15:42,788 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_vars.tmp_save
+2024-02-20 14:15:42,832 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_vars.tmp
+2024-02-20 14:15:42,836 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_pfp.tmp_save
+2024-02-20 14:15:42,873 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_pfp.tmp
+2024-02-20 14:15:42,882 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_obj_creat.tmp_save
+2024-02-20 14:15:42,924 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_obj_creat.tmp
+2024-02-20 14:15:42,928 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_kernelStart.tmp_save
+2024-02-20 14:15:42,968 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_kernelStart.tmp
+2024-02-20 14:15:42,972 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_default_thread.tmp_save
+2024-02-20 14:15:43,014 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_default_thread.tmp
+2024-02-20 14:15:43,017 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_threads.tmp_save
+2024-02-20 14:15:43,057 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\rtos_threads.tmp
+2024-02-20 14:15:43,066 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\Core\Inc\FreeRTOSConfig.h_save
+2024-02-20 14:15:43,137 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\Core\Inc\FreeRTOSConfig.h
+2024-02-20 14:15:43,148 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\Core\Src\freertos.c_save
+2024-02-20 14:15:43,191 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\Core\Src\freertos.c
+2024-02-20 14:15:43,208 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\Core\Src\stm32f4xx_it.c_save
+2024-02-20 14:15:43,305 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\Core\Src\stm32f4xx_it.c
+2024-02-20 14:15:43,309 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\Core\Inc\stm32f4xx_it.h_save
+2024-02-20 14:15:43,350 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\Core\Inc\stm32f4xx_it.h
+2024-02-20 14:15:43,367 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\Core\Src\stm32f4xx_hal_msp.c_save
+2024-02-20 14:15:43,446 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\Core\Src\stm32f4xx_hal_msp.c
+2024-02-20 14:15:43,449 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\system.tmp_save
+2024-02-20 14:15:43,496 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\MXTmpFiles\system.tmp
+2024-02-20 14:15:43,504 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2024-02-20 14:15:43,556 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\Core\Src\stm32f4xx_hal_timebase_tim.c
+2024-02-20 14:15:43,571 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-02-20 14:15:43,644 [INFO] CodeEngine:335 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\Core\Inc\stm32f4xx_hal_conf.h
+2024-02-20 14:15:43,661 [WARN] IPConfigManager:2937 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2024-02-20 14:15:43,664 [WARN] IPConfigManager:3431 - IP not found : TIM
+2024-02-20 14:15:43,665 [WARN] CodeGenerator:3764 - IP not found : null
+2024-02-20 14:15:43,678 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\Core\Inc\main.h_save
+2024-02-20 14:15:43,747 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\Core\Inc\main.h
+2024-02-20 14:15:43,757 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\Core\Src\main.c_save
+2024-02-20 14:15:43,858 [INFO] CodeEngine:279 - Generated code: C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\Core\Src\main.c
+2024-02-20 14:15:44,284 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 152mS.
+2024-02-20 14:15:44,289 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2024-02-20 14:15:44,595 [INFO] ConfigFileManager:1457 - The Die is : DIE421
+2024-02-20 14:15:46,090 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 1801mS.
+2024-02-20 14:15:46,090 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2024-02-20 14:15:46,095 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.

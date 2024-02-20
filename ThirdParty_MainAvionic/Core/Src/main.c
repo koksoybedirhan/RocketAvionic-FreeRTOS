@@ -91,6 +91,7 @@ unsigned char buff[54];
 extern int flag;
 int flagDown = 0;
 int sayac = 0;
+int deneme;
 
 lwgps_t gps;
 uint8_t rx_buffer[128];
@@ -479,6 +480,9 @@ void StartSeperationTask(void const *argument) {
 	/* USER CODE BEGIN StartSeperationTask */
 	/* Infinite loop */
 	for (;;) {
+		osSemaphoreWait(BinSemSepHandle, osWaitForever);
+		deneme++;
+		osSemaphoreRelease(BinSemSepHandle);
 		osDelay(500);
 	}
 	/* USER CODE END StartSeperationTask */
@@ -495,6 +499,8 @@ void StartSepSensorTask(void const *argument) {
 	/* USER CODE BEGIN StartSepSensorTask */
 	/* Infinite loop */
 	for (;;) {
+		osSemaphoreWait(BinSemSepHandle, osWaitForever);
+
 		acX = MPU6050_Kalman_Accel_X();
 		acY = MPU6050_Kalman_Accel_Y();
 		acZ = MPU6050_Kalman_Accel_Z();
@@ -518,6 +524,8 @@ void StartSepSensorTask(void const *argument) {
 
 		// Sensör değerlerini işle
 		processSensorValues();
+
+		osSemaphoreRelease(BinSemSepHandle);
 		osDelay(500);
 	}
 	/* USER CODE END StartSepSensorTask */

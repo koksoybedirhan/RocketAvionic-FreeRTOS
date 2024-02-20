@@ -66,3 +66,52 @@ arm-none-eabi-size   ThirdParty_MainAvionic.elf
   59248	    608	  19528	  79384	  13618	ThirdParty_MainAvionic.elf
 Finished building: default.size.stdout
  
+14:30:30 **** Incremental Build of configuration Debug for project ThirdParty_MainAvionic ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ThirdParty_MainAvionic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ThirdParty_MainAvionic.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ThirdParty_MainAvionic.elf
+ 
+arm-none-eabi-size   ThirdParty_MainAvionic.elf 
+arm-none-eabi-objdump -h -S  ThirdParty_MainAvionic.elf  > "ThirdParty_MainAvionic.list"
+   text	   data	    bss	    dec	    hex	filename
+  61552	    608	  19528	  81688	  13f18	ThirdParty_MainAvionic.elf
+Finished building: default.size.stdout
+ 
+Finished building: ThirdParty_MainAvionic.list
+ 
+14:31:01 **** Incremental Build of configuration Debug for project ThirdParty_MainAvionic ****
+make -j8 all 
+arm-none-eabi-size   ThirdParty_MainAvionic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  61552	    608	  19528	  81688	  13f18	ThirdParty_MainAvionic.elf
+Finished building: default.size.stdout
+ 
+14:33:26 **** Incremental Build of configuration Debug for project ThirdParty_MainAvionic ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ThirdParty_MainAvionic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ThirdParty_MainAvionic.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ThirdParty_MainAvionic.elf
+ 
+arm-none-eabi-size   ThirdParty_MainAvionic.elf 
+arm-none-eabi-objdump -h -S  ThirdParty_MainAvionic.elf  > "ThirdParty_MainAvionic.list"
+   text	   data	    bss	    dec	    hex	filename
+  61568	    608	  19536	  81712	  13f30	ThirdParty_MainAvionic.elf
+Finished building: default.size.stdout
+ 
+Finished building: ThirdParty_MainAvionic.list
+ 
+14:36:21 **** Incremental Build of configuration Debug for project ThirdParty_MainAvionic ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ThirdParty_MainAvionic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Lenovo\Desktop\Bedirhan\TUBITAK\RocketAvionic-FreeRTOS\ThirdParty_MainAvionic\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ThirdParty_MainAvionic.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ThirdParty_MainAvionic.elf
+ 
+arm-none-eabi-size   ThirdParty_MainAvionic.elf 
+arm-none-eabi-objdump -h -S  ThirdParty_MainAvionic.elf  > "ThirdParty_MainAvionic.list"
+   text	   data	    bss	    dec	    hex	filename
+  61552	    608	  19536	  81696	  13f20	ThirdParty_MainAvionic.elf
+Finished building: default.size.stdout
+ 
+Finished building: ThirdParty_MainAvionic.list
+ 
