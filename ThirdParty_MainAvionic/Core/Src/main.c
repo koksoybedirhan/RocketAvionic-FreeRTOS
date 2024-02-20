@@ -69,11 +69,14 @@ static void MX_TIM1_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+#define BUFFER_SIZE 25
+float sensorValues[BUFFER_SIZE];
 float RollAng, Altitude1, Temperature, Pressure, Humidity;
-float acX, acY, acZ, gyX, gyY, gyZ, Alt, T, P, H;
+float acX, acY, acZ, gyX, gyY, gyZ, Alt, T, P, H, AltCompare;
 float gpsAlt, gpsLat, gpsLong;
 unsigned char buff[54];
 extern int flag;
+int flagDown = 0;
 int sayac = 0;
 
 lwgps_t gps;
@@ -98,6 +101,35 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
 		HAL_UART_Receive_IT(&huart6, &rx_data, 1);
 	}
 }
+
+
+//roketin aşağı gittiği anlayan verilerin doldurulduğu buffer'i sıfırlayan kod.
+void initSensorBuffer() {
+    for (int i = 0; i < BUFFER_SIZE; i++) {
+        sensorValues[i] = 0.0f;
+    }
+}
+
+//roketin aşağı indiğini anlayan kod (buffer'a veri atıp karşılaştırma yapıyor)
+void processSensorValues() {
+    for (int i = 0; i < BUFFER_SIZE; i += 4) {
+        if (i + 24 < BUFFER_SIZE) {
+            if (sensorValues[i] >= sensorValues[i + 24]) {
+				flagDown = 1;
+            }
+            else
+            {
+            	flagDown = 0;
+            }
+        }
+
+        // Buffer'ı sıfırla
+        if (i == BUFFER_SIZE - 4) {
+            initSensorBuffer();
+        }
+    }
+}
+
 
 /* USER CODE END 0 */
 
@@ -169,6 +201,14 @@ int main(void)
 
 		//  paket(sayac);
 		//sayac = sayac+1;
+
+        for (int i = 0; i < BUFFER_SIZE; i++) {
+    		AltCompare = BME280_Kalman_Alt(Altitude1);
+            sensorValues[i] = AltCompare;
+        }
+
+        // Sensör değerlerini işle
+        processSensorValues();
 
 		HAL_UART_Transmit(&huart2, buff, 54, 500);
 		HAL_Delay(500);

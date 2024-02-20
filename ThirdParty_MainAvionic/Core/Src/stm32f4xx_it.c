@@ -51,11 +51,13 @@
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-extern float RollAng, Alt, Altitude1;
+extern float RollAng, Alt, Altitude1, AltCompare;
+extern int flagDown;
 int flag = 1;
 /* USER CODE END 0 */
 
 /* External variables --------------------------------------------------------*/
+extern TIM_HandleTypeDef htim1;
 extern UART_HandleTypeDef huart6;
 /* USER CODE BEGIN EV */
 
@@ -200,12 +202,39 @@ void SysTick_Handler(void)
 /******************************************************************************/
 
 /**
+  * @brief This function handles TIM1 update interrupt and TIM10 global interrupt.
+  */
+void TIM1_UP_TIM10_IRQHandler(void)
+{
+  /* USER CODE BEGIN TIM1_UP_TIM10_IRQn 0 */
+
+  /* USER CODE END TIM1_UP_TIM10_IRQn 0 */
+  HAL_TIM_IRQHandler(&htim1);
+  /* USER CODE BEGIN TIM1_UP_TIM10_IRQn 1 */
+
+  /* USER CODE END TIM1_UP_TIM10_IRQn 1 */
+}
+
+/**
   * @brief This function handles USART6 global interrupt.
   */
 void USART6_IRQHandler(void)
 {
   /* USER CODE BEGIN USART6_IRQn 0 */
-
+	if((RollAng <=15 || RollAng >=-15) && Alt>=2400)
+	{
+		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_10, SET);
+		flag = 2;
+	}
+	if((Alt <=600 && flag == 1) && flagDown == 1)
+	{
+		flag = 3;
+	}
+	else if(Alt <= 600 && flag == 2)
+	{
+		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_9, SET);
+		flag = 4;
+	}
   /* USER CODE END USART6_IRQn 0 */
   HAL_UART_IRQHandler(&huart6);
   /* USER CODE BEGIN USART6_IRQn 1 */
