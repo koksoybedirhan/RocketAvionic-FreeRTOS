@@ -53,7 +53,7 @@
 /* USER CODE BEGIN 0 */
 extern float RollAng, Alt, Altitude1, AltCompare;
 extern int flagDown;
-int flag = 1;
+
 /* USER CODE END 0 */
 
 /* External variables --------------------------------------------------------*/
@@ -197,20 +197,7 @@ void TIM2_IRQHandler(void)
 void USART6_IRQHandler(void)
 {
   /* USER CODE BEGIN USART6_IRQn 0 */
-	if((RollAng <=15 || RollAng >=-15) && Alt>=2400)
-	{
-		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_10, SET);
-		flag = 2;
-	}
-	if((Alt <=600 && flag == 1) && flagDown == 1)
-	{
-		flag = 3;
-	}
-	else if(Alt <= 600 && flag == 2)
-	{
-		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_9, SET);
-		flag = 4;
-	}
+
   /* USER CODE END USART6_IRQn 0 */
   HAL_UART_IRQHandler(&huart6);
   /* USER CODE BEGIN USART6_IRQn 1 */
